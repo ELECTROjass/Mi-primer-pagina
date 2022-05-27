@@ -142,7 +142,9 @@ ul {
     grid-template-columns: 1fr 1fr;
     background-color: #f18e47;  
     height: 300px;
-    
+}
+.video {
+    marggin: 10px;
 }
 .text p {
     font-weight: normal;
