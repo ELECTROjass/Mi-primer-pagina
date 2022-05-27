@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE</title>
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--COUSTOME CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--FONT OSWALD-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/Logotipo.png" alt="logo" class="nav-brand">
+            <ul calss="nav-menu">
+                <li>
+                    <a href="#">Angie Paola Mendivelso</a>
+                </li>
+                <li>
+                    <a href="#">Taylor Franco Grisales</a>
+                </li>
+                <li>
+                    <a href="#">Contactanos</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"> </i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr color="#523E27">
+
+        <!--SHOWCASE-->
+        <header class="showcase">
+            <div class="showcase1">
+                <h2>Paola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem odit impedit quis.</p>
+                <a href="#"class="btm">Más sobre mi <i class="fas fa-angle-double-right"></i></a>    
+            </div>
+            <div class="showcase2">
+                <h2>Taylor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem odit impedit quis.</p>
+                <a href="#"class="btm">Más sobre mi <i class="fas fa-angle-double-right"></i></a>   
+            </div>
+        </header>
+
+        <!--PROYECTS-->
+        <div class="proyects">
+            <div>
+                <img src="img/PaoProyect.jpg" alt="">
+                <h3>Proyectos de Paola</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id magnam, nulla corrupti laboriosam tempore praesentium consectetur itaque cupiditate impedit!</p>
+                <a href="#">Más información <i class= "fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/TayProyect.png" alt="">
+                <h3>Proyectos de Taylor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id magnam, nulla corrupti laboriosam tempore praesentium consectetur itaque cupiditate impedit!</p>
+                <a href="#">Más información <i class= "fas fa-angle-double-right"></i></a>
+            </div>
+
+        </div>
+        <div class="media">
+            <video src="/video/video.mp4" class="video"></video>
+            <h3 class="text">
+                <br>
+                <br>
+                <br>
+                ¿Por qué elejimos este video?
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam deserunt magnam iusto ipsam nostrum recusandae.</p>
+            </h3>
+        </div>
+        <section class="content">
+            <h2>Contactanos</h2>
+            <div class="links">
+                <a href="#"> 
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#"> 
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#"> 
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        
+        </section>
+
+        
+    </div>
+    
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="">
+                        <h3>title one</h3>
+                        <hr color="#fff">
+                    </a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <h3>title one</h3>
+                        <hr color="#fff">
+                    </a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <h3>title one</h3>
+                        <hr color="#fff">
+                    </a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <h3>title one</h3>
+                        <hr color="#fff">
+                    </a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+                <li>
+                    <a href="">Lorem, ipsum dolor.</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <h3>Copyright</h3>
+    </footer>
+    <!--SCROLL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
