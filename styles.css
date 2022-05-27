@@ -144,7 +144,8 @@ ul {
     height: 300px;
 }
 .video {
-    marggin: 10px;
+    marggin-left: 20px;
+    marggin-up: 20px;
 }
 .text p {
     font-weight: normal;
