@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #E8CFC1;
+    color: #523E27;
+    background-color: #e8cfc1;
+    background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23dc6a33' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    color: #523E27;
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: auto;   
+}
+
+/* Navegation */
+
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand {
+    width: 50px;
+}
+
+/*Nav center*/
+
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 80px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 3px solid #523E27;
+}
+
+/*SHOWCASE*/
+
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.showcase1 {
+    width: 100%;
+    height: 350px;
+    background: url("./img/Paola2.jpg")no-repeat center center/cover;
+    background-position: top;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    margin: 10px 0;
+    border: 1px solid #523E27;
+    color:#fff;
+}
+.showcase2 {
+    width: 100%;
+    height: 350px;
+    background: url("./img/Tay.jpg")no-repeat center center/cover; 
+    background-position: below;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    margin: 10px 0;
+    border: 1px solid #523E27;
+    color:#fff;
+    text-align-last: right;
+}
+.btm {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #f18e47;
+    color: #523E27;
+    font-size: 15px;
+    border: 1px solid #523E27;
+    margin: 10px 0;
+}
+.btm:hover{
+    opacity: .8;
+}
+.showcase1 h2,.showcase1 p, 
+.showcase2 h2, .showcase2 p {
+    margin-bottom: 5px;
+}
+
+/*PROYECTS*/
+
+.proyects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.proyects img {
+    width: 100%;
+    height: 250px;
+    margin: 10px 0 10px;
+    border: 1px solid #523E27;
+}
+.proyects h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.proyects a {
+    padding: 10px 0;
+    color: #f18e47;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.proyects a:hover {
+    text-decoration: underline 3px; 
+    color : #f2f2f2;
+}
+
+/*MEDIA*/
+
+.media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f18e47;  
+    height: 300px;
+    
+}
+.text p {
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 20px;
+}
+.text h3 p {
+    text-align: center;
+}
+.video {
+    height: 87%;
+    width: 87%;
+    margin: 10px 0;
+}
+
+/*CONTACT background: url(./img/gris.jpg); */
+
+.content {
+    margin: 50px;
+}
+.content h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a {
+    margin: 0 30px;
+}
+.links a i {
+    font-size: 3rem;
+}
+
+/*FOTEER LINKS*/
+
+.footer-links {
+    background: #f18e47;
+    color: #523E27;
+    font-size: 12px;
+    padding: 35px 0;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-container ul {
+    margin: 0 auto;
+}
+.footer-container ul li {
+    line-height: 2.8;
+}
+.footer {
+    background: #f18e47;
+    color: #523E27;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
