@@ -140,7 +140,7 @@ ul {
 .video {
     width="560";
     height="315";
-    src=https://www.youtube.com/embed/r8iY4RVLeco;
+    background: url(https://www.youtube.com/embed/r8iY4RVLeco);
     title="YouTube video player";
     frameborder="0";
 }
