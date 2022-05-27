@@ -137,19 +137,19 @@ ul {
 
 /*MEDIA*/
 
-.video {
-    width="560";
-    height="315";
-    background: url(https://www.youtube.com/embed/r8iY4RVLeco);
-    title="YouTube video player";
-    frameborder="0";
-}
 .media {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #f18e47;  
     height: 300px;
     
+}
+.video {
+    width="560";
+    height="315";
+    background: url(https://www.youtube.com/embed/r8iY4RVLeco);
+    title="YouTube video player";
+    frameborder="0";
 }
 .text p {
     font-weight: normal;
